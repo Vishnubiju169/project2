@@ -1,0 +1,26 @@
+<div class="container h-100" style="margin-top : 100px">
+    <div class="row d-flex align-items-center justify-content-center h-100">
+        <form method="post" action="/updated/{{data._id}}" class="was-validated">
+
+            <div>
+
+                <h1 align="center" class="text-primary">Add To Favourite</h1>
+
+                <div class="form-outline mb-4">
+
+                    <input type="text" id="validateField" class="form-control form-control-lg" name="fav"
+                        value="{{data.fav}}" required />
+
+                </div>
+                <div class="form-outline mb-4">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Add</button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+
+    </div>
+</div>

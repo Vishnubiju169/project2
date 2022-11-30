@@ -1,0 +1,33 @@
+{
+  "name": "student",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.1",
+    "cheerio": "^1.0.0-rc.12",
+    "count-words": "^1.0.13",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "findage": "^30.0.0",
+    "hbs": "^4.2.0",
+    "joi": "^17.6.3",
+    "link-shortener": "^1.2.1",
+    "mongoose": "^6.6.5",
+    "node-fetch": "^2.6.7",
+    "node-url-shorten": "^1.0.1",
+    "node-url-shortener": "^2.0.3",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.3.0",
+    "shorturl": "^0.0.3",
+    "word-counting": "^1.1.4",
+    "words-count": "^2.0.2"
+  }
+}

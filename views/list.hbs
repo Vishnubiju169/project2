@@ -1,0 +1,51 @@
+<div>
+     <form method="post" action="/postUrl" class="was-validated">
+
+         
+    <h2 align="center">Details</h2>
+
+    <table class="table table-light table-hover">
+      
+            
+
+            <tr>
+               <th>Domain Name </th>
+
+               
+                <th>WordCount  </th>
+              
+                <th>Favourite</th>
+                <th>Web-Links</th>
+                <th>Media-Links</th>
+                <th>Actions</th>
+            </tr>
+
+        
+            {{#each data}}
+            <tr>
+               
+                <td>{{this.urlField}}</td>
+               
+                <td>{{this.words}}</td>
+              
+                <td>{{this.fav}}</td>
+                
+
+                <td>{{this.links}}</td>
+               
+
+                <td>{{this.images}}</td>
+
+                <td>
+                    <a href="/update/{{this._id}}"><button type="button" class="btn btn-warning"> Add to Favourite</button> </td>
+                            
+                 <td>  <a href="/delete/{{this._id}}"><button type="button" class="btn btn-danger">Delete</button>
+                           </a></td>
+               
+            </tr>
+            {{/each}}
+       
+    </table>
+    </form>
+
+</div>
